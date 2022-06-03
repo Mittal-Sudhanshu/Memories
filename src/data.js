@@ -74,13 +74,13 @@ import img52 from './images/52.jpeg'
 
 const images = [
     {
-        img:img51
+        img:pic1
     },
     {
-        img:img37
+        img:pic2
     },
     {
-        img:img47
+        img:pic3
     },
 ]
 
