@@ -1,0 +1,100 @@
+.routine{
+    overflow: hidden;
+}
+.animate-img img{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.animate-img h2{
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.info p{
+    max-width: 250px;
+}
+.animate-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.animate-img .hostel{
+    position: relative;
+    animation: hostel;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.animate-img .academic{
+    position: relative;
+    animation: academic;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+.animate-img .library{
+    position: relative;
+    animation: library;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+
+}
+.animate-img .classroom{
+    position: relative;
+    animation: classroom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+
+}
+@keyframes classroom{
+    0% {right: -800px;}
+    100% {right: 0;}
+  }
+@keyframes library{
+    0% {left: -800px;}
+    100% {left: 0;}
+  }
+@keyframes hostel{
+    0% {left: -800px;}
+    100% {left: 0;}
+  }
+@keyframes academic{
+    0% {
+        right: -800px;
+    }
+    100% {
+        right: 0;
+    }
+  }
+
+  @media(max-width:768px){
+      .animate-img{
+          flex-direction: column;
+      }
+  }
+  @media(max-width:600px){
+      .academic .info , .library .info{
+        flex-direction: column-reverse;
+
+      }
+      .info{
+          flex-direction: column;
+      }
+      .main img{
+          width: 280px;
+          height: 280px;
+      }
+  }

@@ -1,0 +1,117 @@
+.nav{
+    background-color: #300c94;
+    padding: 5px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color: white;
+}
+.logo img{
+    max-width: 90px;
+}
+.unclick{
+    color: white;
+    text-decoration: none;
+      display: block;
+      width: 100%;
+      font-size: 1.2rem;
+      transition: 0.2s;
+    padding: 22px;
+  }
+  .click{
+    text-decoration: none;
+      display: block;
+      width: 100%;
+      font-size: 1.2rem;
+      transition: 0.2s;
+    color: red;
+    padding: 22px;
+  }
+.menu-open ul , .menu-close ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu-open ul li , .menu-close ul li{
+    list-style: none;
+}
+
+.menu{
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+.click:hover , .unclick:hover{
+    color: red;
+  }
+/* .menu-open{
+    display: none;
+} */
+@media(max-width:768px){
+    .menu-open{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 15;
+        animation: anim 0.4s ease-in-out;
+    }
+    .menu-close{
+        display: block;
+        position: absolute;
+        top: 85px;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 100;
+        width: 100%;
+        height: 89vh;
+        left: 0;
+        opacity: 0.8;
+        transition: 0.4s;
+        animation: animate 1s ease-in-out;
+    }
+
+    @keyframes animate{
+        from{
+            width: 0%;
+        }
+        to{
+            width: 100%;
+        }
+    }
+    @keyframes anim{
+        from{
+            width: 100%;
+        }
+        to{
+            width: 0%;
+        }
+    }
+    .menu{
+        display: block;
+    }
+    .menu-close ul{
+        position: absolute; 
+        display: flex;
+        flex-direction: column;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    .nav{
+        padding: 5px 20px;
+    }
+
+}

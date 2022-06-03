@@ -1,0 +1,57 @@
+.slider {
+    overflow: hidden;
+  }
+  .slider-track {
+    position: relative;
+    width: 300%;
+    animation: slide 12s infinite;
+  }
+  .slider-track .figure {
+    float: left;
+    width: 33.33%;
+  }
+
+  .slider-track .figure img{
+    width: 100%;
+    height: calc(100vh - 80px);
+    object-fit: cover;
+  }
+  .slider-track .figure .desc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    color: white;
+    width: 33.3%;
+    position: absolute;
+    top: 10rem;
+  }
+
+
+  @keyframes slide {
+    0% {
+      left: 0;
+    }
+    15% {
+      left: 0;
+    }
+    30% {
+      left: -100%;
+    }
+    45% {
+      left: -100%;
+    }
+    60% {
+      left: -200%;
+    }
+    75% {
+      left: -200%;
+    }
+    90% {
+      left: 0;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  

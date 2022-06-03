@@ -1,0 +1,41 @@
+.it img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+.img-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+.img-cont a{
+    margin: 10px;
+}
+.it{
+    position: relative;
+}
+.play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2.2rem;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.thumb-cont{
+    overflow: hidden;
+}
+.it img:hover{
+    transform: translateY(-10px);
+}
+

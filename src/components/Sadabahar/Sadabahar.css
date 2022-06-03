@@ -1,0 +1,30 @@
+.chowk img{
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+}
+
+.sadabahar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 25px;
+}
+.chowk1 , .heaven{
+    display: flex;
+    width: 100%;
+}
+.sada-text{
+    max-width: 450px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.chowk1{
+    justify-content: flex-start;
+}
+.heaven{
+    justify-content: flex-end;
+}

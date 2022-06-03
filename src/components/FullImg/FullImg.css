@@ -1,0 +1,8 @@
+.full-img{
+    height: 88vh;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}

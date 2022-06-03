@@ -1,0 +1,12 @@
+.video-sec{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.vid-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
