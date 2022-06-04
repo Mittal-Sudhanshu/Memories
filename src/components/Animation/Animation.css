@@ -59,7 +59,7 @@
     animation-delay: 6s;
 
 }
-@keyframes classroom{
+/* @keyframes classroom{
     0% {right: -800px;}
     100% {right: 0;}
   }
@@ -78,7 +78,7 @@
     100% {
         right: 0;
     }
-  }
+  } */
 
   @media(max-width:768px){
       .animate-img{

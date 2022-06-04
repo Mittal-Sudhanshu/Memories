@@ -8,23 +8,44 @@
 .sadabahar{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: relative;
-    padding: 25px;
+    margin-top: 15px;
+    overflow: hidden;
 }
-.chowk1 , .heaven{
+.sadabahar h1{
+    margin: 15px 0;
+}
+
+.sada-chowk{
+    background-color: #edeeec;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    padding: 25px;
+
 }
 .sada-text{
     max-width: 450px;
     font-size: 1.3rem;
     text-align: center;
+    margin: 15px;
 }
-.chowk1{
-    justify-content: flex-start;
+
+
+@media(max-width:450px){
+    .sada-text{
+        max-width: 300px;
+        margin: 10px;
+        font-size: 1.1rem;
+    }
+    .chowk img{
+        max-width: 300px;
+    }
 }
-.heaven{
-    justify-content: flex-end;
+@media(max-width:768px){
+    .sada-chowk{
+        flex-direction: column;
+    }
 }

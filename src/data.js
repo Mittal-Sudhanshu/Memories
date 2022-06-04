@@ -1,8 +1,11 @@
 import pic1 from './images/pic1.jpg'
 import pic2 from './images/pic2.jpg'
 import pic3 from './images/pic3.jpg'
+import mainpic1 from './images/mainpic1.jpg'
+import mainpic2 from './images/mainpic2.jpg'
+import mainpic3 from './images/mainpic3.jpg'
 import shoury from './images/shoury.jpg'
-import sudhanshu from './images/sudhanshu.jpg'
+import sudhanshu from './images/sudhanshu.jpeg'
 import ritik from './images/ritik.jpeg'
 import vidsec1 from './videos/vidsec1.mp4'
 import vidsec2 from './videos/vidsec2.mp4'
@@ -71,16 +74,17 @@ import img49 from './images/49.jpeg'
 import img50 from './images/50.jpeg'
 import img51 from './images/51.jpeg'
 import img52 from './images/52.jpeg'
+import img53 from './images/53.jpeg'
 
 const images = [
     {
-        img:pic1
+        img:mainpic3
     },
     {
-        img:pic2
+        img:mainpic2
     },
     {
-        img:pic3
+        img:mainpic1
     },
 ]
 
@@ -199,6 +203,9 @@ const gallery = [
     },
     {
         img:img24
+    },
+    {
+        img:img53
     },
     {
         img:img25
