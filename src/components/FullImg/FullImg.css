@@ -1,8 +1,18 @@
 .full-img{
     height: 88vh;
+    width: 100vw;
+    object-fit: contain;
 }
-.images{
+.imgs{
     display: flex;
     justify-content: center;
     background-color: gray;
+}
+
+@media(max-width:500px){
+    .full-img{
+        height: 88vh;
+        width: 100vw;
+        object-fit: contain;
+    }
 }

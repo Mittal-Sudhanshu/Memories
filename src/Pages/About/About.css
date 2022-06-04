@@ -102,4 +102,9 @@
         margin: 93px 0 0 -125px;
       }
   }
+  @media(max-width:500px) {
+      .profile-name{
+        margin: 55px 0 0 120px;
+      }
+  }
   

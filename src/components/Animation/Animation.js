@@ -37,7 +37,7 @@ const Animation = () => {
             </div>
 
             <div className="animate-img">
-                <div className='library' data-aos='slide-right' data-aos-delay='1400'>
+                <div className='library' data-aos='slide-right' data-aos-delay='700'>
                     <div className="info">
                         <p>The place where we go to use free "Wi-Fi"  (Hostel Cries)</p>
                         <div className="main">
@@ -46,7 +46,7 @@ const Animation = () => {
                         </div>
                     </div>
                 </div>
-                <div className='classroom' data-aos='slide-left' data-aos-delay='2000'>
+                <div className='classroom' data-aos='slide-left' data-aos-delay='700'>
                     <div className="info">
                         <div className="main">
                             <img  src={classroom} alt="" />

@@ -59,7 +59,7 @@
     display: inherit !important;
   }
   .slick-dots li button:before {
-    font-size: 20px;
+    font-size: 10px !important;
   }
   .slick-prev:before{
     position: absolute !important;
